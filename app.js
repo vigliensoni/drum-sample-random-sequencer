@@ -34,9 +34,9 @@ const playAudio = () => {
   playButton.style.display = 'none'
   // start the audio engine
   maxiEngine.init()
-  maxiEngine.loadSample('Kick 606 1.wav', kick)
-  maxiEngine.loadSample('Rim 7T8.wav', snare)
-  maxiEngine.loadSample('ClosedHH 1.wav', hihat)
+  maxiEngine.loadSample('./audio/Kick 606 1.wav', kick)
+  maxiEngine.loadSample('./audio/Rim 7T8.wav', snare)
+  maxiEngine.loadSample('./audio/ClosedHH 1.wav', hihat)
 
   // show an oscilloscope and freqscope
   Nexus.context = maxiEngine.context
