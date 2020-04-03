@@ -1,9 +1,22 @@
 # Drum sample random sequencer
 
-Needs NPM http-server to serve local files without CORS issues
+Based on:
+
+[maximilian.js](https://github.com/micknoise/Maximilian)
+
+[nexusUI](https://github.com/nexus-js/ui)
+
+## Running locally
+
+You may need NPM http-server to avoid CORS issues when running locally
+
 ```
 http-server --cors
 ```
-Access the app through `http://127.0.0.1:8080/drum-sample-random-sequencer.html`
+Then, aaccess the app through 
 
-Runs on Chrome, Firefox, and Safari
+`http://127.0.0.1:8080/drum-sample-random-sequencer.html`
+
+Tested on Chrome, Firefox, and Safari
+
+
